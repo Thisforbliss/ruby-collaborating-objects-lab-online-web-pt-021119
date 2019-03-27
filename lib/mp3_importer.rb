@@ -6,11 +6,4 @@ def initialize(path)
  @path = path
 end
 
-def files
-  Dir.entries(path).do each |x|
-  x
-  binding.pry
-  end 
-end
-
 
