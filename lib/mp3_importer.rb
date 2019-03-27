@@ -7,9 +7,8 @@ def initialize(path)
 end
 
 def files
-  binding.pry
 Dir.entries(path)
-
+binding.pry
 end
 
 def import
