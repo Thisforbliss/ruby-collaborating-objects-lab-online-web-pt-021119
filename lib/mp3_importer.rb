@@ -7,8 +7,8 @@ def initialize(path)
 end
 
 def files
-  Dir.entries(path).do each |mp3|
-  mp3
+  Dir.entries(path).do each |x|
+  x
   binding.pry
   end 
 end
