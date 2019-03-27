@@ -8,7 +8,7 @@ end
 
 def files
   binding.pry
-Dir.entries(path).select {|entry| entry.include?(“.mp3”)}
+Dir.entries(path)
 
 end
 
