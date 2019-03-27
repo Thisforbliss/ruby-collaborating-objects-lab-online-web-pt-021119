@@ -7,6 +7,7 @@ def initialize(path)
 end
 
 def files
+  
 Dir.entries(path).select {|entry| entry.include?(“.mp3”)}
 binding.pry
 end
